@@ -1,0 +1,14 @@
+table{
+    border: 2pt solid black;
+    text-align: center;
+
+}
+table tr{
+    align-self: center;
+}
+table [type=button]{
+    width: 40px;
+}
+.especiales [type=button]{
+    width: 50px;
+}
