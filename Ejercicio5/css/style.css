@@ -1,0 +1,32 @@
+body{
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    text-align: center ;
+    padding: 1pt;
+}
+#menu {
+    float: left;
+    width: 20%;
+    border: 1pt solid black;
+    
+}
+#menu img {
+    width: 35%;
+    margin: 5%;
+    cursor: pointer;
+}
+#principal {
+    float:left;
+    width: 75%;
+}
+#visor { 
+    width: 60%;
+    margin: 10%;
+}
+#visor img { 
+    width: 100%; 
+}
