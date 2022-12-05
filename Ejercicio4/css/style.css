@@ -1,5 +1,7 @@
 table{
+    background-color: lightyellow;
     border: 2pt solid black;
+    margin: 0 auto;
     text-align: center;
 
 }
@@ -11,4 +13,10 @@ table [type=button]{
 }
 .especiales [type=button]{
     width: 50px;
+    color: red;
+}
+#panel{
+    background-color: white;
+    text-align: right;
+    border: 2pt solid black;
 }

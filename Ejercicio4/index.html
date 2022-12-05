@@ -11,86 +11,85 @@
         <table >
             <tr>
                 <td colspan="5">
-                    <input type="text" id="panel">
+                    <p id="panel">0</p>
                 </td>
             </tr>
             <tr class="especiales">
                 <td colspan="5">
-                    <input id="Retr" onclick="compruebaDate();" type="button" value="Retr">
-                    <input id="CE" onclick="compruebaDate();" type="button" value="CE">
-                    <input id="C" onclick="compruebaDate();" type="button" value="C">
+                    <input id="Retr" onclick="clickbotonborrar();" type="button" value="Retr">
+                    <input id="CE" onclick="clickbotonborrarahora();" type="button" value="CE">
+                    <input id="C" onclick="clickbotonborrartotal();" type="button" value="C">
                 </td>
             </tr>
             <tr>
                 
                 <td>
-                    <input id="button7" onclick="compruebaDate();" type="button" value="7">
+                    <input id="button7" onclick="clickboton('7');" type="button" value="7">
                 </td>
                 <td>
-                    <input id="button8" onclick="compruebaDate();" type="button" value="8">
+                    <input id="button8" onclick="clickboton('8');" type="button" value="8">
                 </td>
                 <td>
-                    <input id="button9" onclick="compruebaDate();" type="button" value="9">
+                    <input id="button9" onclick="clickboton('9');" type="button" value="9">
                 </td>
                 <td>
-                    <input id="buttondividir" onclick="compruebaDate();" type="button" value="/">
+                    <input id="buttondividir" onclick="clickbotondividir();" type="button" value="/">
                 </td>
                 <td>
-                    <input id="buttonraiz" onclick="compruebaDate();" type="button" value="Raiz">
-                </td>
-            </tr>
-            <tr>
-                
-                <td>
-                    <input id="button4" onclick="compruebaDate();" type="button" value="4">
-                </td>
-                <td>
-                    <input id="button5" onclick="compruebaDate();" type="button" value="5">
-                </td>
-                <td>
-                    <input id="button6" onclick="compruebaDate();" type="button" value="6">
-                </td>
-                <td>
-                    <input id="buttonmult" onclick="compruebaDate();" type="button" value="*">
-                </td>
-                <td>
-                    <input id="buttonporcent" onclick="compruebaDate();" type="button" value="%">
+                    <input id="buttonraiz" onclick="clickbotonraiz();" type="button" value="Raiz">
                 </td>
             </tr>
             <tr>
                 
                 <td>
-                    <input id="button1" onclick="compruebaDate();" type="button" value="1">
+                    <input id="button4" onclick="clickboton('4');" type="button" value="4">
                 </td>
                 <td>
-                    <input id="button2" onclick="compruebaDate();" type="button" value="2">
+                    <input id="button5" onclick="clickboton('5');" type="button" value="5">
                 </td>
                 <td>
-                    <input id="button3" onclick="compruebaDate();" type="button" value="3">
+                    <input id="button6" onclick="clickboton('6');" type="button" value="6">
                 </td>
                 <td>
-                    <input id="buttonrest" onclick="compruebaDate();" type="button" value="-">
+                    <input id="buttonmult" onclick="clickbotonmult();" type="button" value="*">
                 </td>
                 <td>
-                    <input id="buttoninvers" onclick="compruebaDate();" type="button" value="1/x">
+                    <input id="buttonporcent" onclick="clickbotonporcent();" type="button" value="%">
                 </td>
             </tr>
             <tr>
-              
+                
                 <td>
-                    <input id="button0" onclick="compruebaDate();" type="button" value="0">
+                    <input id="button1" onclick="clickboton('1');" type="button" value="1">
                 </td>
                 <td>
-                    <input id="buttonsign" onclick="compruebaDate();" type="button" value="+/-">
+                    <input id="button2" onclick="clickboton('2');" type="button" value="2">
                 </td>
                 <td>
-                    <input id="buttoncoma" onclick="compruebaDate();" type="button" value=".">
+                    <input id="button3" onclick="clickboton('3');" type="button" value="3">
                 </td>
                 <td>
-                    <input id="buttonsum" onclick="compruebaDate();" type="button" value="+">
+                    <input id="buttonrest" onclick="clickbotonrestar();" type="button" value="-">
                 </td>
                 <td>
-                    <input id="buttonresult" onclick="compruebaDate();" type="button" value="=">
+                    <input id="buttoninvers" onclick="clickbotoninverso();" type="button" value="1/x">
+                </td>
+            </tr>
+            <tr> 
+                <td>
+                    <input id="button0" onclick="clickboton('0');" type="button" value="0">
+                </td>
+                <td>
+                    <input id="buttonsign" onclick="clickbotonsigno();" type="button" value="+/-">
+                </td>
+                <td>
+                    <input id="buttoncoma" onclick="clickboton('.');" type="button" value=".">
+                </td>
+                <td>
+                    <input id="buttonsum" onclick="clickbotonsuma();" type="button" value="+">
+                </td>
+                <td>
+                    <input id="buttonresult" onclick="clickbotonresultado();" type="button" value="=">
                 </td>
             </tr>
         </table>
